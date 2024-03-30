@@ -14,7 +14,6 @@ for i in range(len(my_string)):
         my_alternate_chars_string += my_string[i].lower()
     else:
         my_alternate_chars_string += my_string[i].upper()
-    i += 1
 print(my_alternate_chars_string) 
 
 # Split the initial string into separate words and save as a list 
@@ -26,5 +25,4 @@ for i in range(len(my_string_split)):
         my_alternate_words_string += " " + my_string_split[i].upper()
     else:
         my_alternate_words_string += " " + my_string_split[i].lower()
-i += 1
 print(my_alternate_words_string)
